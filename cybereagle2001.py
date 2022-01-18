@@ -96,9 +96,12 @@ def vuln():
     if  (";" in ip):
         ip = ip.split(";")
         os.system("cd vulscan && nmap -sV --script=vulscan.nse "+ip[0])
-    elif("&&" in ip):
-        ip = ip.split("&&")
+    elif("&" in ip):
+        ip = ip.split("&")
         os.system("cd vulscan && nmap -sV --script=vulscan.nse "+ip[0])
+    elif("|" in ip):
+        ip = ip.split("|")
+        os.system("cd vulscan && nmap -sV --script=vulscan.nse"+ip[0])
     else:
         os.system("cd vulscan && nmap -sV --script=vulscan.nse "+ip)
 

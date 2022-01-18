@@ -40,4 +40,4 @@ This script is made for Script Kiddie and those who are getting starting in the 
 
 Original author : Oussama Ben Hadj Dahman (cybereagle2001)
 
-Developped by cybereagle2001
+Developped by FR13NDLY{EXPLO1T}
